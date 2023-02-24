@@ -21,7 +21,7 @@ export const submitForm = createAsyncThunk(
     async (data, {dispatch, rejectWithValue}) => {
         try {
           const response = await fetch(
-            'https://frost-chain-lint.glitch.me/api/order',
+            'https://cloudy-slash-rubidium.glitch.me/api/order',
             {
               method: 'POST',
               headers: {
